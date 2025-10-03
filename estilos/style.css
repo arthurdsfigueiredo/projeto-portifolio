@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade */
+}
+
+img{
+    width: 40px;
+}
+nav, nav ul, nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav ul{
+    display: flex;
+    font-size: 12px;
+}
+nav li{
+    padding: 10px 14px 10px 14px;
+}
+nav a{ 
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*@media (prefers-color-scheme: dark) {
+    body {
+    background: #121212;
+    color: white;
+    }
+}*/
