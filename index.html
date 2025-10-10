@@ -1,30 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="/estilos/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/imagens/iconeLogo.png">
     <title>Arthur Figueiredo</title>
 </head>
+
 <body>
     <header>
-    <!--Touchbar-->
-    <img src="/imagens/logoPortifolio.svg">
-    <nav>
-        <ul>
-            <li><a href="#sobremim" >Sobre Mim</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#formacao">Formação</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-    </nav>
+        <!--Touchbar-->
+        <img class="touchbar" src="/imagens/logoPortifolio.svg">
+
+        <button class="botao"><i class="fa-solid fa-bars"></i></button>
+
+        <nav>
+            <ul>
+                <li><a href="#sobremim">Sobre Mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-    
+
     <main>
-        <section id="sobremim"></section>
+        <section id="sobremim">
+            <img class="foto-perfil" src="/imagens/perfil.png" alt="foto de Arthur Figueiredo">
+            <h1>Arthur Figueiredo</h1>
+            <p>Nascido em 2006, apaixonado por tecnologia desde 2013.</p>
+            <p>A curiosidade me levava a desmontar equipamentos e até mesmo interromper serviços, como o da linha
+                telefônica de minha mãe. Com o tempo, percebi que, para transformar essa curiosidade em construção de
+                soluções, seria necessário compreender o funcionamento de cada tecnologia.
+                Desde então, tenho buscado constantemente novos aprendizados. Com qual resultado? Hoje como Analista de
+                TI, contribuo para o mundo com Desenvolvimento Full-Stack, Banco de Dados e suas Ferramentas e Infraestrutura.</p>
+
+            <div id="social">
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-solid fa-at"></i></a>
+            </div>
+        </section>
+
+
         <section id="skills"></section>
         <section id="formacao"></section>
         <section id="projetos"></section>
@@ -35,4 +59,5 @@
 
     </footer>
 </body>
+
 </html>
