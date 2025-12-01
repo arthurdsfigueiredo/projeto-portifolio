@@ -14,7 +14,7 @@
 <body>
     <header>
         <!--Touchbar-->
-            <div class="menu">
+        <div class="menu">
             <img class="touchbar" src="imagens/logoPortifolio.svg">
             <button class="botao">
                 <svg height="18" width="18">
@@ -50,46 +50,129 @@
                     </path>
                 </svg>
             </button>
-            </div>
-       
+        </div>
 
-            <nav class="navegacao">
-                <ul>
-                    <li><a href="#sobremim">Sobre Mim</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#formacao">Formação</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-        
+
+        <nav class="navegacao">
+            <ul>
+                <li><a href="#sobremim">Sobre Mim</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
     </header>
 
     <main>
-        <section id="sobremim">
-            <img class="foto-perfil" src="imagens/perfil.png" alt="foto de Arthur Figueiredo">
-            <h1>Arthur Figueiredo</h1>
-            <p>Nascido em 2006, apaixonado por tecnologia desde 2013.</p>
-            <p>A curiosidade me levava a desmontar equipamentos e até mesmo interromper serviços, como o da linha
-                telefônica de minha mãe. Com o tempo, percebi que, para transformar essa curiosidade em construção de
-                soluções, seria necessário compreender o funcionamento de cada tecnologia.
-                Desde então, tenho buscado constantemente novos aprendizados. Com qual resultado? Busco evoluir e
-                contribuir para o mundo com Desenvolvimento Full-Stack, Banco de Dados e suas Ferramentas e
-                Infraestrutura.</p>
+        <article class="principal">
+            <section id="sobremim">
+                <img class="foto-perfil" src="imagens/perfil.png" alt="foto de Arthur Figueiredo">
+                <h1>Arthur Figueiredo</h1>
+                <p>Nascido em 2006, apaixonado por tecnologia desde 2013.</p>
+                <p>A curiosidade me levava a desmontar equipamentos e até mesmo interromper serviços, como o da linha
+                    telefônica de minha mãe. Com o tempo, percebi que, para transformar essa curiosidade em construção
+                    de
+                    soluções, seria necessário compreender o funcionamento de cada tecnologia.
+                    Desde então, tenho buscado constantemente novos aprendizados. Com qual resultado? Busco evoluir e
+                    contribuir para o mundo com Desenvolvimento Full-Stack, Banco de Dados e suas Ferramentas e
+                    Infraestrutura.</p>
 
-            <div id="social">
-                <a href="www.linkedin.com/in/arthur-figueiredo-a26889285"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/arthurdsfigueiredo"><i class="fa-brands fa-github"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href="mailto: arthursfigueiredo2017@gmail.com"><i class="fa-solid fa-at"></i></a>
-            </div>
-        </section>
+                <div id="social">
+                    <a href="www.linkedin.com/in/arthur-figueiredo-a26889285"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/arthurdsfigueiredo"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto: arthursfigueiredo2017@gmail.com"><i class="fa-solid fa-at"></i></a>
+                </div>
+            </section>
+        </article>
 
+        <article id="detalhes">
 
-        <section id="skills"></section>
-        <section id="formacao"></section>
-        <section id="projetos"></section>
-        <section id="contato"></section>
+            <article class="skills">
+                <section>
+                    <h1>Minhas Skills</h1>
+                </section>
+
+                <section id="skills-container">
+                    <div class="skills-bloco">
+                        <img class="imgskills" src="imagens/HTML5.png">
+                        <h2>HTML 5</h2>
+                    </div>
+
+                    <div class="skills-bloco">
+                        <img src="imagens/CSS3.png" alt="" class="imgskills">
+                        <h2>CSS 3</h2>
+                    </div>
+
+                    <div class="skills-bloco">
+                        <img src="imagens/Java.png" alt="" class="imgskills">
+                        <h2>JAVA SCRIPT</h2>
+                    </div>
+
+                    <div class="skills-bloco">
+                        <img src="imagens/Java.png" alt="" class="imgskills">
+                        <h2>JAVA</h2>
+                    </div>
+
+                    <div class="skills-bloco">
+                        <img src="imagens/MySQL.png" alt="" class="imgskills">
+                        <h2>MySQL</h2>
+                    </div>
+
+                    <div class="skills-bloco">
+                        <img src="imagens/Python.png" alt="" class="imgskills">
+                        <h2>Python</h2>
+                    </div>
+                </section>
+            </article>
+
+            <article class="formacao">
+                <section id="formacao">
+                    <h1>Formação</h1>
+                </section>
+                <section class="em">
+                    <h2>Ensino Médio</h2>
+                    <h3>Escola Estadual Monte Sinai</h3>
+                    <p>Período: 2022 - 2024</p>
+                </section>
+                <section class="es">
+                    <h2>Ensino Superior - Tecnólogo</h2>
+                    <h3>Centro Universitário Una</h3>
+                    <p>Curso: Análise e Desenvolvimento de Sistemas</p>
+                    <p>Período: 2022 - 2024</p>
+                </section>
+            </article>
+
+            <article class="projetos">
+                <section id="projetos">
+                    <h1>Projetos</h1>
+                    <div class="container">
+                        <div class="bloco1">
+                            <h3>Projeto 1</h3>
+                        </div>
+                        <div class="bloco1">
+                            <h3>Projeto 2</h3>
+                        </div>
+                        <div class="bloco2">
+                            <h3>Projeto 3</h3>
+                        </div>
+                        <div class="bloco2">
+                            <h3>Projeto 4</h3>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="contato">
+                <section id="contato">
+                    <h1>Contato</h1>
+                </section>
+            </article>
+
+        </article>
     </main>
 
     <footer>
